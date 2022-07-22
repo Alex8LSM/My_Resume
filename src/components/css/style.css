@@ -4,7 +4,19 @@ body
     background-color: #c7c2c2d5;
 }
 
-
+.Main_conteiner{
+    background-color: #E5E5E5;
+    width: 1200px;
+    margin: 40px auto;
+    padding: 40px 40px 40px 40px ;   
+}
+.Rectangle{   
+    background-color: #fff; 
+    width: 1200px;
+    display: flex;
+    flex-direction: row-reverse; 
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);          
+}
 
 /* Main_content_section*/
  .Main_content_section{
