@@ -1,27 +1,33 @@
 import styles from './Projects.module.css';
-
-const Projects = ({projects}) => {
-const progectList=projects.map((project,key)=>(
-    <li className={styles.projectsItem} key={key}>
-        <a href={project.link} className={styles.projectsLink}>{project.link}</a>
-        <span className={styles.projectsText}>...................................
-            <span className={styles.projectsBracket}>[</span> 
-             {project.tehnology} 
-            <span className={styles.projectsBracket}>]</span>
-        </span>
+import common from '../Common.module.css';
+const Projects = ({ projects }) => {
+  const progectList = projects.map((project, key) => (
+    <li className={styles.item} key={key}>
+      <div className={styles.itemContainer}>
+        <div className={styles.linkBlock}>
+          <a href={project.link} className={styles.link}>
+            {project.title}
+          </a>
+          <div className={styles.spacer}>
+            .................................................................................
+          </div>
+        </div>
+        <div className={styles.tehnologyBlock}>
+          <span className={styles.bracket}>[ </span>
+          <span className={styles.tehnology}>{project.tehnology}</span>
+          <span className={styles.bracket}> ]</span>
+        </div>
+      </div>
+      <div className={styles.description}>{project.description}</div>
     </li>
-    ))
+  ));
   return (
-    <section className={styles.container}>
-      <h3 className={styles.mainTitle}>Projects</h3>
-  
-      <ol className={styles.projectsList}>
-      {progectList}
-      </ol>
+    <section className={common.container}>
+      <h3 className={common.mainTitle}>Projects</h3>
 
-
+      <ul className={styles.projectsList}>{progectList}</ul>
     </section>
-  )
+  );
 };
 
 export default Projects;
