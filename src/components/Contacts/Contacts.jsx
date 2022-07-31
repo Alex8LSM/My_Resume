@@ -36,6 +36,8 @@ const Contacts = ({ contacts }) => {
             <a
               href={`https://www.google.com/maps/search/${contact.link.city},+${contact.link.country}`}
               className={styles.contactsLink}
+              target="_blank"
+              rel="noreferrer"
             >
               {common}
               <span className={styles.contactText}>
@@ -47,7 +49,12 @@ const Contacts = ({ contacts }) => {
       default:
         return (
           <li key={key}>
-            <a href={contact.link} className={styles.contactsLink}>
+            <a
+              href={contact.link}
+              className={styles.contactsLink}
+              target="_blank"
+              rel="noreferrer"
+            >
               {common}
               <span className={styles.contactText}>{contact.type}</span>
             </a>
