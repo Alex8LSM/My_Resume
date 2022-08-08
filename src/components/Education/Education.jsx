@@ -2,7 +2,7 @@ import styles from './Education.module.css';
 import common from '../Common.module.css';
 const Education = ({ universities }) => {
   const universityList = universities.map((university, key) => (
-    <div key={key}>
+    <div className={styles.container} key={key}>
       <h4 className={styles.university}>{university.university}</h4>
       <h4 className={styles.specialty}>{university.specialty}</h4>
       <p className={styles.period}>

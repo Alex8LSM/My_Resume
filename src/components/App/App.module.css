@@ -1,13 +1,16 @@
 /*utils_variables*/
 :root {
-  --accent: #fb6d3a;
+  --accent: #bcbe52;
+  --linkHover: #bcbe52;
   --title: #fff;
-  --titleBg: #1e2939;
+  --titleBg: #344668;
   --sidebartext: #fff;
   --sidebarBg: #1f585f;
   --period: #a8a8a8;
   --vidider: #000;
   --text: #595959;
+  --contactIconBg: var(--titleBg);
+  /* --contactIconBg: transparent; */
 }
 body {
   font-family: 'sitka text', sans-serif;

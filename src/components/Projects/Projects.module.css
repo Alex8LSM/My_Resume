@@ -18,7 +18,7 @@
 }
 .link:hover,
 .link:focus {
-  color: var(--accent);
+  color: var(--linkHover);
 }
 .linkBlock {
   overflow: hidden;

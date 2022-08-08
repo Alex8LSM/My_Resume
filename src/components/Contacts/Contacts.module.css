@@ -9,7 +9,7 @@
   height: 32px;
   margin-right: 5px;
   border-radius: 50%;
-  background-color: var(--titleBg);
+  background-color: var(--contactIconBg);
 }
 .svgIcon {
   fill: var(--sidebartext);
@@ -32,9 +32,9 @@
 }
 .contactsLink:hover .svgIcon,
 .contactsLink:focus .svgIcon {
-  fill: var(--accent);
+  fill: var(--linkHover);
 }
 .contactsLink:hover .contactText,
 .contactsLink:focus .contactText {
-  color: var(--accent);
+  color: var(--linkHover);
 }
