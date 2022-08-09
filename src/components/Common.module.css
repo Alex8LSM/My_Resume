@@ -28,3 +28,6 @@
   line-height: 24px;
   color: var(--sidebartext);
 }
+.divider {
+  color: var(--divider);
+}
