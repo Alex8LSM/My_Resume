@@ -27,6 +27,7 @@
   flex-wrap: nowrap;
 }
 .description {
+  padding-top: 6px;
   font-style: italic;
   font-size: 18px;
 }
