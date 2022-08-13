@@ -2,13 +2,13 @@
 :root {
   --linkHover: #bcbe52;
   --title: #fff;
-  --titleBg: #344668;
-  --accent: var(--titleBg);
+  --titleBg: #15244a;
+  --accent: #233d7a;
   --sidebartext: #fff;
   --sidebarBg: #1f585f;
-  --period: #a8a8a8;
-  --divider: #000;
   --text: #595959;
+  --period: var(--text);
+  --divider: #000;
   --contactIconBg: var(--titleBg);
 }
 body {

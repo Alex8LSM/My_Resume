@@ -1,8 +1,8 @@
 .title {
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 1.2em;
   color: var(--title);
   padding: 7px 20px 4px 20px;
   margin-bottom: 5px;
@@ -12,8 +12,8 @@
 .mainTitle {
   composes: title;
 }
-.container {
-  margin-bottom: 20px;
+.container:not(:last-child) {
+  margin-bottom: 10px;
 }
 .list {
   padding: 0 0 0 35px;

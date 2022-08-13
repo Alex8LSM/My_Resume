@@ -4,17 +4,17 @@
   color: #000;
   text-align: center;
   text-transform: uppercase;
+  line-height: 1.2em;
 }
 .myName {
   composes: header;
-  font-size: 35px;
-  line-height: 42px;
-  margin-bottom: 10px;
+  font-size: 60px;
+  line-height: 1.2em;
+  padding: 20px 0;
 }
 .profession {
   composes: header;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 .level {
@@ -23,11 +23,10 @@
 }
 
 .description {
-  /* width: 400px; */
-  padding-left: 20px;
   font-style: italic;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 1.2em;
   color: var(--text);
+  padding: 10px 20px 10px 20px;
 }

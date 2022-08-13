@@ -1,6 +1,7 @@
 .projectsList {
-  padding-left: 20px;
+  /* padding-left: 20px; */
   list-style: none;
+  padding: 10px 20px 0px 20px;
 }
 .item {
   margin-bottom: 15px;
@@ -11,7 +12,7 @@
 .link {
   font-style: normal;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #000;
   white-space: nowrap;
@@ -27,6 +28,7 @@
 }
 .description {
   font-style: italic;
+  font-size: 18px;
 }
 .tehnologyBlock {
   margin-left: 5px;
@@ -34,7 +36,7 @@
 .tehnology {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: var(--text);
 }
