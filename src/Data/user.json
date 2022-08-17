@@ -22,14 +22,6 @@
       "link": "https://www.linkedin.com/in/oleksandr-khvaleba-847366247/"
     },
     {
-      "type": "facebook",
-      "link": "https://www.facebook.com/Alex8LSM/"
-    },
-    {
-      "type": "instagram",
-      "link": "https://www.instagram.com/alex8_lsm/"
-    },
-    {
       "type": "twitter",
       "link": "https://twitter.com/Alex8LSM"
     },
@@ -44,20 +36,22 @@
   "techSkills": [
     "HTML5",
     "CSS3",
-    "GIT",
+    "SASS",
     "WebPack",
     "JavaScript",
-    "React.js",
+    "React",
     "Node.js"
   ],
   "softSkills": [
-    "Scrum",
-    "Agile",
-    "GTD",
+    "Quick learning",
     "Teamwork",
-    "Growth Mindset",
+    "Growth mindset",
     "Creativity",
-    "Communication"
+    "Communication",
+    "Meticulous",
+    "Self-motivation",
+    "Effective listening",
+    "Calm"
   ],
   "aboutMe": {
     "name": "Oleksandr Khvaleba",
